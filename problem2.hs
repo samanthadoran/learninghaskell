@@ -6,4 +6,4 @@
 mySecondLast :: [a] -> a
 mySecondLast (x:xs:[]) = x
 mySecondLast (x:xs) = mySecondLast xs
-mySecondLast ([]) = error "List is empty?"
+mySecondLast [] = error "List is empty?"
